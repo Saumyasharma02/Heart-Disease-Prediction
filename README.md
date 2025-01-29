@@ -17,24 +17,24 @@ Since the dataset was **imbalanced**, we used **Synthetic Minority Over-sampling
 ## 📊 Dataset Information
 The dataset consists of multiple health-related attributes that influence heart disease risk. Some key features include:
 
--**HeartDisease**: Target variable (1 = Yes, 0 = No) 
--**BMI (Body Mass Index)**: Indicator of body fat based on height and weight
--**Smoking**: Whether the individual smokes (1 = Yes, 0 = No)
--**AlcoholDrinking**: Whether the individual consumes alcohol (1 = Yes, 0 = No)
--**Stroke**: History of stroke (1 = Yes, 0 = No)
--**PhysicalHealth**: Number of physically unhealthy days in the past month
--**MentalHealth**: Number of mentally unhealthy days in the past month
--**DiffWalking**: Difficulty walking (1 = Yes, 0 = No)
--**Sex**: Gender of the individual (0 = Female, 1 = Male)
--**AgeCategory**: Categorical representation of age groups
--**Race**: Ethnicity of the individual
--**Diabetic**: Diabetes status with multiple categories
--**PhysicalActivity**: Whether the individual engages in physical activity (1 = Yes, 0 = No)
--**GenHealth (General Health)**: Self-reported general health status
--**SleepTime**: Number of hours of sleep per night
--**Asthma**: Whether the individual has asthma (1 = Yes, 0 = No)
--**KidneyDisease**: Presence of kidney disease (1 = Yes, 0 = No)
--**SkinCancer**: History of skin cancer (1 = Yes, 0 = No)
+- **HeartDisease**: Target variable (1 = Yes, 0 = No) 
+- **BMI (Body Mass Index)**: Indicator of body fat based on height and weight
+- **Smoking**: Whether the individual smokes (1 = Yes, 0 = No)
+- **AlcoholDrinking**: Whether the individual consumes alcohol (1 = Yes, 0 = No)
+- **Stroke**: History of stroke (1 = Yes, 0 = No)
+- **PhysicalHealth**: Number of physically unhealthy days in the past month
+- **MentalHealth**: Number of mentally unhealthy days in the past month
+- **DiffWalking**: Difficulty walking (1 = Yes, 0 = No)
+- **Sex**: Gender of the individual (0 = Female, 1 = Male)
+- **AgeCategory**: Categorical representation of age groups
+- **Race**: Ethnicity of the individual
+- **Diabetic**: Diabetes status with multiple categories
+- **PhysicalActivity**: Whether the individual engages in physical activity (1 = Yes, 0 = No)
+- **GenHealth (General Health)**: Self-reported general health status
+- **SleepTime**: Number of hours of sleep per night
+- **Asthma**: Whether the individual has asthma (1 = Yes, 0 = No)
+- **KidneyDisease**: Presence of kidney disease (1 = Yes, 0 = No)
+- **SkinCancer**: History of skin cancer (1 = Yes, 0 = No)
 
 The dataset is highly imbalanced, requiring special techniques to handle the imbalance for machine learning training.
 ## Data Source
